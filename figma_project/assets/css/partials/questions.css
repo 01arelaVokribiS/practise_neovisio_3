@@ -1,0 +1,26 @@
+.questions {
+  padding: 120px 0;
+}
+
+.questions__container {
+  display: flex;
+  align-items: center;
+}
+
+.questions__title {
+  margin-bottom: 29px;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 55px;
+  letter-spacing: 1.65px;
+}
+
+.questions__text {
+  margin-bottom: 47px;
+}
+
+.questions__btn {
+  padding: 20px 35px;
+  font-size: 17px;
+  line-height: 20px;
+}
