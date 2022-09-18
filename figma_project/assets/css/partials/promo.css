@@ -1,0 +1,23 @@
+.promo {
+  padding: 14px 0;
+  font-size: 14px;
+  line-height: 20px;
+  background-color: #35b8be;
+}
+
+.promo__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.promo__text {
+  margin-right: 10px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.promo__link {
+  color: #fff;
+}
