@@ -1,0 +1,27 @@
+.contacts {
+  padding: 140px 0;
+}
+
+.contacts__container {
+  display: flex;
+  align-items: center;
+}
+
+.contacts__title {
+  margin-bottom: 29px;
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 55px;
+  letter-spacing: 1.65px;
+}
+
+.contacts__text {
+  margin-bottom: 47px;
+}
+
+.contacts__btn {
+  display: inline-block;
+  padding: 20px 35px;
+  font-size: 18px;
+  line-height: 20px;
+}
