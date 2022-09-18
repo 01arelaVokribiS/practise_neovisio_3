@@ -1,0 +1,153 @@
+.menu {
+  padding: 154px 0 140px;
+  background-color: #f5fbfc;
+}
+
+.menu__container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0;
+  max-width: 1200px;
+}
+
+.menu__title {
+  margin-bottom: 26px;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 55px;
+  letter-spacing: 1.65px;
+  color: #35b8be;
+}
+
+.menu__description {
+  margin-bottom: 50px;
+  max-width: 470px;
+  text-align: center;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tabs__list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.tabs__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.tabs__content {
+  display: none;
+  margin-bottom: 44px;
+}
+
+.tabs__content--active {
+  display: block;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  min-height: 660px;
+}
+
+.content__title--empty {
+  text-transform: uppercase;
+}
+
+.content-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 26px;
+  border: 1px solid rgba(53, 184, 190, 0.15);
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+.content-item__image {
+  margin-right: 30px;
+  max-width: 120px;
+}
+
+.content-item__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.content-item__header-title {
+  max-width: 250px;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.6px;
+  color: #08090a;
+}
+
+.content-item__header-price {
+  font-size: 15px;
+  line-height: 20px;
+  color: #35b8be;
+}
+
+.content-item__text {
+  margin-bottom: 8px;
+  max-width: 350px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  color: #546285;
+}
+
+.content-item__buttons {
+  display: flex;
+  align-items: center;
+}
+
+.buttons__counter {
+  margin-right: 8px;
+  width: 60px;
+  height: 45px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  text-align: center;
+  background-color: #fafafa;
+}
+
+.buttons__btn {
+  padding: 10px;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0.36px;
+  color: #000;
+}
+
+.tabs__btn {
+  padding: 16px 46px;
+  border: 1px solid rgba(97, 114, 131, 0.2);
+  border-radius: 6px;
+  font-size: 15px;
+  line-height: 20px;
+  background-color: #fff;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.tabs__btn:hover {
+  color: #fff;
+  background-color: #154a4c;
+}
+
+.tabs__btn--active {
+  background-color: #35b8be;
+  color: #fff;
+}
