@@ -1,0 +1,32 @@
+.about {
+  padding: 140px 0;
+  background-color: #f5fbfc;
+}
+
+.about__container {
+  display: flex;
+  align-items: center;
+}
+
+.about__title {
+  margin-bottom: 29px;
+  font-weight: 400;
+  font-size: 51px;
+  line-height: 55px;
+  letter-spacing: 1.65px;
+  color: #35b8be;
+}
+
+.about__text {
+  margin-bottom: 47px;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.36px;
+  color: #546285;
+}
+
+.about__btn {
+  padding: 20px 35px;
+  font-size: 17px;
+  line-height: 20px;
+}
