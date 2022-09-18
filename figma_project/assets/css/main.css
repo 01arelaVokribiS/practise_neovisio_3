@@ -1,0 +1,14 @@
+@import "settings.css";
+
+@import "./partials/promo.css";
+@import "./partials/header.css";
+@import "./partials/hero.css";
+@import "./partials/about.css";
+@import "./partials/actions.css";
+@import "./partials/menu.css";
+@import "./partials/questions.css";
+@import "./partials/contacts.css";
+@import "./partials/order.css";
+@import "./partials/footer.css";
+
+@import "media-queries.css";
