@@ -107,6 +107,12 @@
     line-height: 45px;
   }
 
+  .menu__btn {
+    padding: 15px 30px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
   .questions {
     padding: 45px 0;
   }
@@ -269,7 +275,6 @@
   }
 
   .footer__description-text {
-    margin: 10px;
   }
 
   .footer-nav {
@@ -310,6 +315,10 @@
   .tabs__item:not(:last-child) {
     margin-right: 0;
   }
+
+  .order__content {
+    padding: 0 15px;
+  }
 }
 
 /* =============== 425px =============== */
@@ -321,5 +330,9 @@
 
   .content-item__image {
     margin-bottom: 10px;
+  }
+
+  .footer__bottom-copyright {
+    text-align: center;
   }
 }
